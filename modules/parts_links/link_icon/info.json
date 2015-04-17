@@ -1,0 +1,8 @@
+{
+	"name": "アイコン付きリンク",
+	"sample_data":[
+		{
+			"data":{"modId":"FESS:parts_links/link_icon","fields":{"href":"/","text":"アイコン付きリンク"}}
+		}
+	]
+}
