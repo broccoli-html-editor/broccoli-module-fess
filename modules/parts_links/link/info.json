@@ -1,8 +1,5 @@
 {
 	"name": "リンク",
 	"sample_data":[
-		{
-			"data":{"modId":"FESS:parts_links/link","fields":{"href":"/","text":"リンク"}}
-		}
 	]
 }

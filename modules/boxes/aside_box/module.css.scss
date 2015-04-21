@@ -1,0 +1,21 @@
+.aside_box {
+	padding: 1.5em 3em;
+	background-color: #dddddd;
+	font-size: 86%;
+	border-radius: 1em;
+	border: 1px solid #999;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	.aside_box-heading {
+		font-weight: bold;
+		margin: 1em 0;
+		font-size: 120%;
+	}
+}
+.aside_box :first-child {
+  margin-top: 0;
+}
+.aside_box :last-child {
+  margin-bottom: 0;
+}
