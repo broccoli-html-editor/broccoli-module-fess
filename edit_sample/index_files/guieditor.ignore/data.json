@@ -5,22 +5,185 @@
    "fields": {
     "main": [
      {
-      "modId": "PlainHTMLElements:PlainHTML/HTML",
+      "modId": "FESS:units/cols2",
       "fields": {
-       "main": "HTML で編集しているエリアです。\n\n<!-- autoindex -->"
+       "column1": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## Heading 2\n\n- list 1\n  - list 1-1\n  - list 1-2\n- list 2"
+         }
+        }
+       ],
+       "column2": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## Heading 2"
+         }
+        },
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Text",
+         "fields": {
+          "main": "ここは、プレーンテキストです。\n"
+         }
+        },
+        {
+         "modId": "PlainHTMLElements:PlainHTML/HTML",
+         "fields": {
+          "main": "HTML で編集しているエリアです。\n\n<!-- autoindex -->"
+         }
+        }
+       ]
       }
      },
      {
-      "modId": "PlainHTMLElements:PlainHTML/Markdown",
+      "modId": "FESS:boxes/aside_box",
       "fields": {
-       "main": "## ここは、マークダウンです。\n\n- あああ\n- いいい"
+       "heading": "Heading",
+       "main": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/HTML",
+         "fields": {
+          "main": "<ul>\n<li>付加情報などお知らせします。</li>\n</ul>"
+         }
+        }
+       ]
       }
      },
      {
-      "modId": "PlainHTMLElements:PlainHTML/Text",
+      "modId": "FESS:boxes/attention_box",
       "fields": {
-       "main": "ここは、プレーンテキストです。\n"
+       "heading": "Heading",
+       "main": []
       }
+     },
+     {
+      "modId": "FESS:boxes/topic_box",
+      "fields": {
+       "heading": "Heading",
+       "main": []
+      }
+     },
+     {
+      "modId": "FESS:units/form_error_box",
+      "fields": {
+       "heading": "Heading",
+       "main": []
+      }
+     },
+     {
+      "modId": "FESS:parts/dl_notes",
+      "fields": {
+       "loop": [
+        {
+         "modId": "FESS:parts/dl_notes",
+         "fields": {
+          "dt": "注釈1",
+          "dd": "用語説明などに利用します。"
+         },
+         "subModName": "loop"
+        },
+        {
+         "modId": "FESS:parts/dl_notes",
+         "fields": {
+          "dt": "注釈2",
+          "dd": "情報参照、下方参照もできたほうがよいですか？"
+         },
+         "subModName": "loop"
+        }
+       ]
+      }
+     },
+     {
+      "modId": "FESS:parts/date_list",
+      "fields": {
+       "loop": [
+        {
+         "modId": "FESS:parts/date_list",
+         "fields": {
+          "date": "2015/4/21",
+          "flags": "[NEW]",
+          "href": "/style_guide/index.html",
+          "news": "ニュースをお届けします。"
+         },
+         "subModName": "loop"
+        },
+        {
+         "modId": "FESS:parts/date_list",
+         "fields": {
+          "date": "2014/8/30",
+          "flags": "[OLD]",
+          "href": "/",
+          "news": "古いニュースを書いてみます。"
+         },
+         "subModName": "loop"
+        }
+       ]
+      }
+     },
+     {
+      "modId": "FESS:units/cols5",
+      "fields": {
+       "column1": [],
+       "column2": [],
+       "column3": [],
+       "column4": [],
+       "column5": []
+      }
+     },
+     {
+      "modId": "FESS:units/float_media-r1of3",
+      "fields": {
+       "thumb": "",
+       "alt": "",
+       "caption": "",
+       "main": [
+        {
+         "modId": "PlainHTMLElements:PlainHTML/Markdown",
+         "fields": {
+          "main": "## ここには、回りこみ画像を入力してみます。"
+         }
+        }
+       ]
+      }
+     },
+     {
+      "modId": "FESS:units/form_buttons_confirm",
+      "fields": {}
+     },
+     {
+      "modId": "FESS:units/form_buttons_submit",
+      "fields": {}
+     },
+     {
+      "modId": "FESS:units/form_buttons_cancel",
+      "fields": {}
+     },
+     {
+      "modId": "FESS:parts/ul_nomark",
+      "fields": {
+       "loop": [
+        {
+         "modId": "FESS:parts/ul_nomark",
+         "fields": {
+          "text": "リストマークはないけれど、リストアイテムです。"
+         },
+         "subModName": "loop"
+        },
+        {
+         "modId": "FESS:parts/ul_nomark",
+         "fields": {
+          "text": "リストマークはないけれど、リストアイテムです。2"
+         },
+         "subModName": "loop"
+        }
+       ]
+      }
+     },
+     {
+      "modId": "FESS:parts_links/anchor_links",
+      "fields": {}
      }
     ]
    }
