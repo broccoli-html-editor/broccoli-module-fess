@@ -12,7 +12,8 @@
          "modId": "PlainHTMLElements:PlainHTML/Markdown",
          "fields": {
           "main": "## Heading 2\n\n- list 1\n  - list 1-1\n  - list 1-2\n- list 2"
-         }
+         },
+         "dec": ""
         }
        ],
        "column2": [
@@ -33,6 +34,16 @@
          "fields": {
           "main": "HTML で編集しているエリアです。\n\n<!-- autoindex -->"
          }
+        },
+        {
+         "modId": "PlainHTMLElements:PlainHTML/MultiText",
+         "fields": {
+          "main": {
+           "src": "マークダウン形式を選択した multitext フィールドです。",
+           "editor": "markdown"
+          }
+         },
+         "dec": ""
         }
        ]
       }
@@ -40,7 +51,10 @@
      {
       "modId": "FESS:boxes/aside_box",
       "fields": {
-       "heading": "Heading",
+       "heading": {
+        "src": "HEADING",
+        "editor": ""
+       },
        "main": [
         {
          "modId": "PlainHTMLElements:PlainHTML/HTML",
@@ -49,28 +63,30 @@
          }
         }
        ]
-      }
+      },
+      "dec": ""
      },
      {
       "modId": "FESS:boxes/attention_box",
       "fields": {
-       "heading": "Heading",
+       "heading": {
+        "src": "HEADING",
+        "editor": ""
+       },
        "main": []
-      }
+      },
+      "dec": ""
      },
      {
       "modId": "FESS:boxes/topic_box",
       "fields": {
-       "heading": "Heading",
+       "heading": {
+        "src": "HEADING",
+        "editor": ""
+       },
        "main": []
-      }
-     },
-     {
-      "modId": "FESS:units/form_error_box",
-      "fields": {
-       "heading": "Heading",
-       "main": []
-      }
+      },
+      "dec": ""
      },
      {
       "modId": "FESS:parts/dl_notes",
@@ -96,28 +112,55 @@
       }
      },
      {
-      "modId": "FESS:parts/date_list",
+      "modId": "FESS:units/unit",
       "fields": {
-       "loop": [
+       "main": [
         {
          "modId": "FESS:parts/date_list",
          "fields": {
-          "date": "2015/4/21",
-          "flags": "[NEW]",
-          "href": "/style_guide/index.html",
-          "news": "ニュースをお届けします。"
-         },
-         "subModName": "loop"
-        },
-        {
-         "modId": "FESS:parts/date_list",
-         "fields": {
-          "date": "2014/8/30",
-          "flags": "[OLD]",
-          "href": "/",
-          "news": "古いニュースを書いてみます。"
-         },
-         "subModName": "loop"
+          "loop": [
+           {
+            "modId": "FESS:parts/date_list",
+            "fields": {
+             "date": {
+              "src": "2015年7月7日",
+              "editor": "text"
+             },
+             "flags": {
+              "src": "[BACKUP]",
+              "editor": "text"
+             },
+             "href": "/edit_sample/index.html",
+             "news": {
+              "src": "七夕まつり",
+              "editor": ""
+             }
+            },
+            "subModName": "loop",
+            "dec": ""
+           },
+           {
+            "modId": "FESS:parts/date_list",
+            "fields": {
+             "date": {
+              "src": "2015年7月24日",
+              "editor": "text"
+             },
+             "flags": {
+              "src": "[NEW]",
+              "editor": "text"
+             },
+             "href": "/index.html",
+             "news": {
+              "src": "ニュース本文の見出し",
+              "editor": "text"
+             }
+            },
+            "subModName": "loop",
+            "dec": ""
+           }
+          ]
+         }
         }
        ]
       }
@@ -133,56 +176,70 @@
       }
      },
      {
-      "modId": "FESS:units/float_media-r1of3",
-      "fields": {
-       "thumb": "",
-       "alt": "",
-       "caption": "",
-       "main": [
-        {
-         "modId": "PlainHTMLElements:PlainHTML/Markdown",
-         "fields": {
-          "main": "## ここには、回りこみ画像を入力してみます。"
-         }
-        }
-       ]
-      }
-     },
-     {
-      "modId": "FESS:units/form_buttons_confirm",
-      "fields": {}
-     },
-     {
-      "modId": "FESS:units/form_buttons_submit",
-      "fields": {}
-     },
-     {
-      "modId": "FESS:units/form_buttons_cancel",
-      "fields": {}
-     },
-     {
       "modId": "FESS:parts/ul_nomark",
       "fields": {
        "loop": [
         {
          "modId": "FESS:parts/ul_nomark",
          "fields": {
-          "text": "リストマークはないけれど、リストアイテムです。"
+          "text": {
+           "src": "markdownですー。\n- リストアイテムですー",
+           "editor": "markdown"
+          }
          },
-         "subModName": "loop"
+         "subModName": "loop",
+         "dec": ""
         },
         {
          "modId": "FESS:parts/ul_nomark",
          "fields": {
-          "text": "リストマークはないけれど、リストアイテムです。2"
+          "text": {
+           "src": "1つ目のリストアイテムですー",
+           "editor": "text"
+          }
          },
-         "subModName": "loop"
+         "subModName": "loop",
+         "dec": ""
+        },
+        {
+         "modId": "FESS:parts/ul_nomark",
+         "fields": {
+          "text": {
+           "src": "リストアイテムですー",
+           "editor": "text"
+          }
+         },
+         "subModName": "loop",
+         "dec": ""
         }
        ]
       }
      },
      {
       "modId": "FESS:parts_links/anchor_links",
+      "fields": {}
+     },
+     {
+      "modId": "FESS:units_form/form_error_box",
+      "fields": {
+       "heading": {
+        "src": "エラーがあります。",
+        "editor": "text"
+       },
+       "main": []
+      },
+      "dec": ""
+     },
+     {
+      "modId": "FESS:units_form/form_buttons_submit",
+      "fields": {}
+     },
+     {
+      "modId": "FESS:units_form/form_buttons_confirm",
+      "fields": {}
+     },
+     {
+      "modId": "FESS:units_form/form_buttons_cancel",
       "fields": {}
      }
     ]

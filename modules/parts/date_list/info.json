@@ -1,3 +1,4 @@
 {
-  "name": "日付入りリスト .date_list"
+  "name": "日付入りリスト .date_list",
+  "areaSizeDetection":"shallow"
 }

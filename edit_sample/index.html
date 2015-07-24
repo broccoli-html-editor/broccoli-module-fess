@@ -1,19 +1,29 @@
 <div class="cols unit">
 	<div class="cols-col cols-1of2"><div class="cols-pad">
-<h2>Heading 2</h2>
+<h2 id="heading-2">Heading 2</h2>
+<ul>
+<li>list 1<ul>
+<li>list 1-1</li>
+<li>list 1-2</li>
+</ul>
+</li>
+<li>list 2</li>
+</ul>
 
-<ul><li>list 1<ul><li>list 1-1</li><li>list 1-2</li></ul></li><li>list 2</li></ul>
 	</div></div>
 	<div class="cols-col cols-1of2 cols-last"><div class="cols-pad">
-<h2>Heading 2</h2>ここは、プレーンテキストです。<br />HTML で編集しているエリアです。
+<h2 id="heading-2">Heading 2</h2>
+ここは、プレーンテキストです。<br />HTML で編集しているエリアです。
 
-<!-- autoindex -->
+<!-- autoindex --><p>マークダウン形式を選択した multitext フィールドです。</p>
+
+
 	</div></div>
 </div><!-- / .cols -->
 
 <div class="aside_box">
 
-	<p class="aside_box-heading">Heading</p>
+	<p class="aside_box-heading">HEADING</p>
 
 	<ul>
 <li>付加情報などお知らせします。</li>
@@ -22,24 +32,17 @@
 
 <div class="attention_box">
 
-	<p class="attention_box-heading">Heading</p>
+	<p class="attention_box-heading">HEADING</p>
 
 	
 </div><!-- /.attention_box -->
 
 <div class="topic_box">
 
-	<p class="topic_box-heading">Heading</p>
+	<p class="topic_box-heading">HEADING</p>
 
 	
 </div><!-- /.topic_box -->
-
-<div class="unit form_error_box">
-
-	<p>Heading</p>
-
-	
-</div><!-- /.form_error_box -->
 <dl class="notes">
 
 	<dt class="notes-dt">※注釈1</dt>
@@ -49,6 +52,7 @@
 		<dd class="notes-dd">情報参照、下方参照もできたほうがよいですか？</dd>
 
 </dl>
+<div class="unit">
 <div class="date_list">
 	<table>
 		<thead>
@@ -61,21 +65,23 @@
 		<tbody>
 
 			<tr>
-				<th>2015/4/21</th>
-				<td class="date_list-flag">[NEW]</td>
-				<td><a href="/style_guide/index.html">ニュースをお届けします。</a></td>
+				<th>2015年7月7日</th>
+				<td class="date_list-flag">[BACKUP]</td>
+				<td><a href="/edit_sample/index.html">七夕まつり</a></td>
 			</tr>
 
 			<tr>
-				<th>2014/8/30</th>
-				<td class="date_list-flag">[OLD]</td>
-				<td><a href="/">古いニュースを書いてみます。</a></td>
+				<th>2015年7月24日</th>
+				<td class="date_list-flag">[NEW]</td>
+				<td><a href="/index.html">ニュース本文の見出し</a></td>
 			</tr>
 
 		</tbody>
 	</table>
 
 </div><!-- /.date_list -->
+
+<!-- /.unit --></div>
 <div class="cols unit">
 	<div class="cols-col cols-1of5"><div class="cols-pad">
 
@@ -93,20 +99,32 @@
 
 	</div></div>
 </div><!-- / .cols -->
-<div class="unit float_media">
-  <div class="float_media-r1of3">
-    <div class="float_media-image"><img src="./index_files/resources/.undefined" alt="" /></div>
-    <p class="float_media-caption"></p>
-  </div>
-  <div class="float_media-body_rect">
-    <h2>ここには、回りこみ画像を入力してみます。</h2>
-  </div>
-</div><!-- /.float_media -->
-<div class="unit form_buttons">
-	<ul>
-		<li class="form_buttons-submit"><input type="submit" name="" value="確認する" /></li>
-	</ul>
-</div><!-- /.form_buttons -->
+<ul class="nomark">
+
+	<li class="nomark-li"><p>markdownですー。</p>
+<ul>
+<li>リストアイテムですー</li>
+</ul>
+</li>
+
+	<li class="nomark-li">1つ目のリストアイテムですー</li>
+
+	<li class="nomark-li">リストアイテムですー</li>
+
+</ul>
+
+
+<!-- autoindex -->
+
+
+
+
+<div class="unit form_error_box">
+
+	<p>エラーがあります。</p>
+
+	
+</div><!-- /.form_error_box -->
 <div class="unit form_buttons">
 	<ul>
 		<li class="form_buttons-submit"><input type="submit" name="" value="送信する" /></li>
@@ -115,26 +133,11 @@
 </div><!-- /.form_buttons -->
 <div class="unit form_buttons">
 	<ul>
+		<li class="form_buttons-submit"><input type="submit" name="" value="確認する" /></li>
+	</ul>
+</div><!-- /.form_buttons -->
+<div class="unit form_buttons">
+	<ul>
 		<li class="form_buttons-cancel"><input type="submit" name="" value="キャンセル" /></li>
 	</ul>
 </div><!-- /.form_buttons -->
-<ul class="nomark">
-
-	<li class="nomark-li">リストマークはないけれど、リストアイテムです。</li>
-
-	<li class="nomark-li">リストマークはないけれど、リストアイテムです。2</li>
-
-</ul>
-<div class="anchor_links">
-	<p class="anchor_links-heading">目次</p>
-	<ul>
-		<li><a href="javascript:;">1. ページ内リンク</a></li>
-		<li><a href="javascript:;">2. ページ内リンク</a>
-		<ul>
-			<li><a href="javascript:;">2.1. ページ内リンク</a></li>
-			<li><a href="javascript:;">2.2. ページ内リンク</a></li>
-		</ul>
-		</li>
-		<li><a href="javascript:;">3. ページ内リンク</a></li>
-	</ul>
-</div><!-- /.anchor_links -->
