@@ -1,19 +1,19 @@
-tomk79/px2-fess
+pickles2/px2-mod-fess
 =========
 
-FESS document modues for Pickles 2.
+FESS document modues for [Pickles 2](http://pickles2.pxt.jp/).
 
 
 ## Usage - 使い方
 
-### 1. Pickles2 をセットアップ
+### 1. [Pickles 2](http://pickles2.pxt.jp/) をセットアップ
 
 ### 2. composer.json に追記
 
 ```
 {
     "require": {
-        "tomk79/px2-fess": "dev-master"
+        "pickles2/px2-mod-fess": "dev-master"
     }
 }
 ```
@@ -28,7 +28,7 @@ $ composer update
 
 ```
 // config for Pickles2 Desktop Tool.
-@$conf->plugins->px2dt->paths_module_template["FESS"] = "./vendor/tomk79/px2-fess/modules/";
+@$conf->plugins->px2dt->paths_module_template["FESS"] = "./vendor/pickles2/px2-mod-fess/modules/";
 ```
 
 
@@ -42,5 +42,3 @@ MIT License
 - (C)Tomoya Koyanagi <tomk79@gmail.com>
 - website: <http://www.pxt.jp/>
 - Twitter: @tomk79 <http://twitter.com/tomk79/>
-
-
