@@ -1,7 +1,7 @@
-pickles2/px2-mod-fess
+pickles2/broccoli-module-fess
 =========
 
-FESS document modues for [Pickles 2](http://pickles2.pxt.jp/).
+FESS document modues for [Pickles 2](http://pickles2.pxt.jp/) and broccoli-html-editor.
 
 
 ## Usage - 使い方
@@ -13,7 +13,7 @@ FESS document modues for [Pickles 2](http://pickles2.pxt.jp/).
 ```
 {
     "require": {
-        "pickles2/px2-mod-fess": "dev-master"
+        "pickles2/broccoli-module-fess": "dev-master"
     }
 }
 ```
@@ -28,7 +28,7 @@ $ composer update
 
 ```
 // config for Pickles2 Desktop Tool.
-@$conf->plugins->px2dt->paths_module_template["FESS"] = "./vendor/pickles2/px2-mod-fess/modules/";
+@$conf->plugins->px2dt->paths_module_template["FESS"] = "./vendor/pickles2/broccoli-module-fess/modules/";
 ```
 
 
