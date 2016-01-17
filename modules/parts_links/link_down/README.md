@@ -1,1 +1,3 @@
-<p><a href="javascript:;" class="down">ページ内リンク(下向き)</a></p>
+```html
+<p><a href="hoge.html" class="down">ページ内リンク(下向き)</a></p>
+```

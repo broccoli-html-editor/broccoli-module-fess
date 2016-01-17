@@ -49,6 +49,10 @@
       }
      },
      {
+      "modId": "FESS:parts_links/anchor_links",
+      "fields": {}
+     },
+     {
       "modId": "FESS:boxes/aside_box",
       "fields": {
        "heading": {
@@ -95,18 +99,34 @@
         {
          "modId": "FESS:parts/dl_notes",
          "fields": {
-          "dt": "注釈1",
-          "dd": "用語説明などに利用します。"
+          "dt": {
+           "src": "注釈1",
+           "editor": "text"
+          },
+          "dd": {
+           "src": "用語説明などに利用します。",
+           "editor": "text"
+          }
          },
-         "subModName": "loop"
+         "subModName": "loop",
+         "anchor": "",
+         "dec": ""
         },
         {
          "modId": "FESS:parts/dl_notes",
          "fields": {
-          "dt": "注釈2",
-          "dd": "情報参照、下方参照もできたほうがよいですか？"
+          "dt": {
+           "src": "注釈2",
+           "editor": "text"
+          },
+          "dd": {
+           "src": "情報参照、下方参照もできたほうがよいですか？",
+           "editor": "text"
+          }
          },
-         "subModName": "loop"
+         "subModName": "loop",
+         "anchor": "",
+         "dec": ""
         }
        ]
       }
@@ -176,6 +196,51 @@
       }
      },
      {
+      "modId": "FESS:units/thumb_list",
+      "fields": {
+       "thumb_loop": [
+        {
+         "modId": "FESS:units/thumb_list",
+         "fields": {
+          "href": "",
+          "thumb": {
+           "resKey": "faac61c99bea878546b3d10d9170aec4",
+           "path": "./index_files/resources/father1.png"
+          },
+          "alt": "父1",
+          "caption": {
+           "src": "父1",
+           "editor": "text"
+          }
+         },
+         "subModName": "thumb_loop",
+         "anchor": "",
+         "dec": ""
+        },
+        {
+         "modId": "FESS:units/thumb_list",
+         "fields": {
+          "href": "/",
+          "thumb": {
+           "resKey": "a6d1ed2663782dac7adc19e41e82e013",
+           "path": "./index_files/resources/father2.png"
+          },
+          "alt": "父2",
+          "caption": {
+           "src": "父2",
+           "editor": "text"
+          }
+         },
+         "subModName": "thumb_loop",
+         "anchor": "",
+         "dec": ""
+        }
+       ]
+      },
+      "anchor": "",
+      "dec": ""
+     },
+     {
       "modId": "FESS:parts/ul_nomark",
       "fields": {
        "loop": [
@@ -188,7 +253,8 @@
           }
          },
          "subModName": "loop",
-         "dec": ""
+         "dec": "",
+         "anchor": ""
         },
         {
          "modId": "FESS:parts/ul_nomark",
@@ -216,8 +282,37 @@
       }
      },
      {
-      "modId": "FESS:parts_links/anchor_links",
-      "fields": {}
+      "modId": "FESS:parts_links/more_links",
+      "fields": {
+       "loop": [
+        {
+         "modId": "FESS:parts_links/more_links",
+         "fields": {
+          "href": "/",
+          "text": {
+           "src": "more1",
+           "editor": "markdown"
+          }
+         },
+         "subModName": "loop",
+         "anchor": "",
+         "dec": ""
+        },
+        {
+         "modId": "FESS:parts_links/more_links",
+         "fields": {
+          "href": "/",
+          "text": {
+           "src": "more2",
+           "editor": "markdown"
+          }
+         },
+         "subModName": "loop",
+         "anchor": "",
+         "dec": ""
+        }
+       ]
+      }
      },
      {
       "modId": "FESS:units_form/form_error_box",
@@ -236,11 +331,37 @@
      },
      {
       "modId": "FESS:units_form/form_buttons_confirm",
-      "fields": {}
+      "fields": {},
+      "anchor": "",
+      "dec": ""
      },
      {
       "modId": "FESS:units_form/form_buttons_cancel",
       "fields": {}
+     },
+     {
+      "modId": "FESS:parts_links/link",
+      "fields": {
+       "href": "/",
+       "text": {
+        "src": "リンク    ",
+        "editor": "markdown"
+       }
+      },
+      "anchor": "",
+      "dec": ""
+     },
+     {
+      "modId": "FESS:parts_links/link_download",
+      "fields": {
+       "href": "/",
+       "text": {
+        "src": "テキスト",
+        "editor": "text"
+       }
+      },
+      "anchor": "",
+      "dec": ""
      }
     ]
    }

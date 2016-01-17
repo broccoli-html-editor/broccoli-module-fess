@@ -1,1 +1,3 @@
-<p><a href="javascript:;" target="_blank"><span class="blank">別ウィンドウリンク</span></a></p>
+```html
+<p><a href="hoge.html" target="_blank"><span class="blank">別ウィンドウリンク</span></a></p>
+```

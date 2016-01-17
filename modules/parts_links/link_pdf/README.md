@@ -1,1 +1,3 @@
-<p><a href="javascript:;"><span class="pdf">PDFダウンロード</span></a></p>
+```html
+<p><a href="hoge.html"><span class="pdf">PDFダウンロード</span></a></p>
+```

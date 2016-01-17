@@ -1,3 +1,7 @@
+ページャー(ページネーション)を表現します。
+
+
+```html
 <div class="unit pager">
 <ul>
 <li class="pager-first"><span>&lt;&lt;最初</span></li>
@@ -13,3 +17,4 @@
 <li class="pager-last"><a href="#">最後&gt;&gt;</a></li>
 </ul>
 </div><!-- /.pager -->
+```
