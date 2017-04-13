@@ -1,7 +1,7 @@
-pickles2/broccoli-module-fess
+broccoli-html-editor/broccoli-module-fess
 =========
 
-FESS document modues for [Pickles 2](http://pickles2.pxt.jp/) and broccoli-html-editor.
+FESS document modues for broccoli-html-editor.
 
 
 ## Usage - 使い方
