@@ -13,7 +13,7 @@ FESS document modues for broccoli-html-editor.
 ```json
 {
     "require": {
-        "pickles2/broccoli-module-fess": "^0.1"
+        "broccoli-html-editor/broccoli-module-fess": "^0.1"
     }
 }
 ```
