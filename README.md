@@ -10,10 +10,10 @@ FESS document modues for broccoli-html-editor.
 
 ### 2. composer.json に追記
 
-```
+```json
 {
     "require": {
-        "pickles2/broccoli-module-fess": "dev-master"
+        "pickles2/broccoli-module-fess": "^0.1"
     }
 }
 ```
@@ -26,7 +26,7 @@ $ composer update
 
 ### 4. px-files/config.php に追加
 
-```
+```php
 // config for Pickles2 Desktop Tool.
 @$conf->plugins->px2dt->paths_module_template["FESS"] = "./vendor/pickles2/broccoli-module-fess/modules/";
 ```
