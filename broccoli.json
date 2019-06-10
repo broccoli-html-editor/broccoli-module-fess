@@ -1,4 +1,5 @@
 {
+    "id": "FESS",
     "name": "FESS",
     "type": "module",
     "path": "modules/"
